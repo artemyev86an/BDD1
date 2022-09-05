@@ -13,6 +13,7 @@ public class DataHelper {
         private String password;
     }
 
+    
     public static AuthInfo getAuthInfo() {
         return new AuthInfo("vasya", "qwerty123");
     }
